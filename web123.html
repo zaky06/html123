@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
   <head>
-    <link rel="shortcut icon" href="./fotos/scientist.png" type="image/png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="description" content="описание">
     <meta name="keywords" content="продажа, скульптуры, магазин">
@@ -9,16 +9,21 @@
     <title>Главная</title>
   </head>
   <body>
+    <form class="" action="#" method="post" enctype="multipart/form-data">
     <header>
       <nav>
-        <a href="web123.html">Главная</a>
         <a href="web321.html">О компании</a>
         <a href="magazin.html">Магазин</a>
         <a href="kontakti.html">Контакты</a>
+        <a href="skupka.html">Скупка</a>
+        <a href="reg.html">Регистрация</a>
       </nav>
     </header>
     <main>
       <section>
+          <div class="">
+            <a href="#opros">пройти небольшой опрос</a>
+          </div>
         <h2>Популярные работы</h2>
         <article>
           <h3>Бронзовая скульптура Семья</h3>
@@ -29,10 +34,40 @@
           <h3>Скульптура Фемида</h3>
         </article>
         <img src="./fotos/mefida.jpg" alt="скульптура Фемида">
-        <a href="kupit.html">купить</a>
+        <a href="kupit2.html">купить</a>
       </section>
     </main>
-    <footer>Просто для галочки(подвал сайта)</footer>
+    <footer>
+      <fieldset id="opros">
+        <legend>Опрос</legend>
+        <p>Что вам нравится?</p>
+        <label for="checkbox">Скульптура</label>
+        <input id="checkbox" type="checkbox" name="" value="">
+        <label for="checkbox2">Живопись</label>
+        <input id="checkbox2" type="checkbox" name="" value="">
+        <div class="">
+          <p>Вы увлекаетесь современным искусством</p>
+          <label for="yes">да<input id="yes" type="radio" name="" value=""></label>
+          <label for="no">нет<input id="no" type="radio" name="" value=""></label>
+        </div>
+        <div class="">
+          <p>Лучшие эпохи искусства</p>
+          <label for="16v">16в</label>
+          <input id="16v"type="checkbox" name="" value="">
+          <label for="17v">17в</label>
+          <input id="17v"type="checkbox" name="" value="">
+          <label for="18v">18в</label>
+          <input id="18v"type="checkbox" name="" value="">
+          <label for="19v">19в</label>
+          <input id="19v"type="checkbox" name="" value="">
+        </div>
+        <div class="">
+          <button type="submit">Добавить</button>
+          <button type="reset">Очистить</button>
+        </div>
+      </fieldset>
+    </footer>
+    </form>
 
   </body>
 </html>

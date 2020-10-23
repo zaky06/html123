@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="fotos/scientist.png" type="image/png">
+    <meta charset="utf-8">
+    <title>Скупка</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="web123.html">Главная</a>
+        <a href="web321.html">О компании</a>
+        <a href="magazin.html">Магазин</a>
+        <a href="kontakti.html">Контакты</a>
+        <a href="reg.html">Регистрация</a>
+      </nav>
+    </header>
+    <h2>Купим ваш товар</h2>
+    <form class="" action="#" method="multipart/form-data">
+      <div class="">
+        <fieldset>
+      <label for="category">Категория товара</label>
+      <select id="category" name="" multiple>
+        <optgroup label="Скульптуры">
+          <option value="">Из металаа</option>
+          <option value="">Из фарфора</option>
+          <option value="">Из мрамора</option>
+        </optgroup>
+        <optgroup label="Живопись">
+          <option value="">Пейзаж</option>
+          <option value="">Портрет</option>
+          <option value="">Натюрморт</option>
+        </optgroup>
+      </select>
+        </fieldset>
+        </div>
+        <div class="">
+          <fieldset>
+          <label for="nazv">Название товара</label>
+          <input id="nazv" type="text" name="" value="" placeholder="Название">
+          <div class="">
+            <label for="description">Описание товара</label>
+            <textarea id="description"name="" rows="8" cols="80" placeholder="Введите описание"></textarea>
+          </div>
+          <div class="">
+            <label for="date">Дата изготовления</label>
+            <input type="date" id="date" name="" value="">
+          </div>
+          <div class="">
+            <label for="images">Фото товара</label>
+            <input id="images" type="file" multiple accept="image/*" name="" value="">
+          </div>
+          <div class="">
+            <p>доступные варианты выплаты</p>
+            <label for="pp">Перевод на счет</label>
+            <input id="pp" type="radio" name="pay[]" value="1">
+            <label for="qq">Оплата наличными</label>
+            <input id="qq" type="radio" name="pay[]" value="2">
+          </div>
+          <div class="">
+            <button type="submit">Добавить</button>
+            <button type="reset">Очистить</button>
+          </div>
+          </fieldset>
+    </form>
+  </body>
+</html>
