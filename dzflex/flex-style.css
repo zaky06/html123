@@ -12,6 +12,7 @@ footer {
   height: 20px;
   background: orangered;
   flex: 1 0 auto;
+  flex-shrink: 0;
 }
 .for {
     flex: 1 0 auto;
@@ -33,7 +34,7 @@ html {
 
 body {
     margin: 0;
-    height: 100%;
+    
     display: flex;
     flex-direction: column;
 }
