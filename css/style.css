@@ -1,0 +1,125 @@
+body{
+  background-image: url("background77-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+header {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  padding: 30px;
+  border: 1px solid #795548;
+  background-color: #795548;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.shadow-block {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-btn {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow {
+  text-shadow: 5px 5px 10px #3E2723;
+}
+
+.legenda {
+    background-color: #795548;
+    color: #fff;
+    padding: 3px 6px;
+
+}
+
+
+
+
+.up-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 50%
+}
+
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+}
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+
+.oprosss {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+}
+
+.oprosss:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.oprosss:active { background: rgb(152,15,0); }
+
+.table1 {
+border-spacing: 0 10px;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+th {
+padding: 10px 20px;
+background: #56433D;
+color: #F9C941;
+border-right: 2px solid;
+font-size: 0.9em;
+}
+th:first-child {
+text-align: left;
+}
+th:last-child {
+border-right: none;
+}
+td {
+vertical-align: middle;
+padding: 10px;
+font-size: 14px;
+text-align: center;
+border-top: 2px solid #56433D;
+border-bottom: 2px solid #56433D;
+border-right: 2px solid #56433D;
+}
+td:first-child {
+border-left: 2px solid #56433D;
+border-right: none;
+}
+td:nth-child(2){
+text-align: left;
+}
+
+.fieldset3 {
+    border:2px
+    solid green;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}

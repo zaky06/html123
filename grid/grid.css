@@ -1,0 +1,90 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header" /*первый ряд */
+    "left main right" /* второй ряд */
+    "slider slider slider"
+    "footer footer footer"; /* третий ряд */
+    /* определение колонок сетки */
+    grid-template-columns: 1fr minmax(500px, 1200px) 1fr; /* minmax(from, to) область размером от и до, то есть минимум 500 максимум 1200*/
+    /* отвечает за ряды сетки */
+    grid-template-rows: 80px auto 25vh 100px;
+    height: 100vh;
+    margin: 0;
+}
+
+/* привязка html к template-areas: */
+header {
+  grid-area: header;
+  background: #FF4E00
+
+}
+
+#left-aside {
+  grid-area: left;
+  background: #BCAAA4;
+}
+
+main {
+  grid-area: main;
+  background: #EFEBE9;
+}
+
+#right-aside {
+  grid-area: right;
+  background: #BCAAA4;
+
+}
+
+#slider {
+  grid-area: slider;
+}
+
+footer {
+  grid-area: footer;
+  background: #FF4E00;
+}
+
+main {
+  display: grid;
+  grid-template:
+    "image title" /*можно задать размер 1 ряда*/
+    "specifications reviews"/*можно задать размер 2 ряда и тд*/
+    ". reviews" /*ставим точку если нужно пропустить колонку*/
+    ". reviews"
+    "similar similar" 200px
+    / 1fr 2fr /*размеры колонок от 1 до последней*/
+    ;
+    /* grid-template-columns: 1fr 2fr; */
+    /* grid-auto-rows: auto auto auto auto 200px; */
+}
+
+.left-aside {
+  grid-area: left-aside;
+}
+
+.image {
+  grid-area: image;
+}
+
+.title {
+    grid-area: title;
+}
+
+.specifications {
+  grid-area: specifications;
+}
+
+.review {
+  grid-area: review;
+}
+
+.similar {
+  grid-area: similar;
+  display: flex;
+}
