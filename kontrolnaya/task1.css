@@ -1,0 +1,25 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #5900B2;
+  display: flex;
+  height: 70px;
+}
+
+.logo {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
