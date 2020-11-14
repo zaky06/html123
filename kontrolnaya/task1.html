@@ -5,14 +5,111 @@
     <title>OLIMP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="flex-grid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-      <header>
-        <div class="navbar">
-          <a class="logo" href="#">ОЛИМП</a>
+
+      <header class="flex-row">
+        <div class="logo">ОЛИМП</div>
+        <div class="kat for logo2">
+          <div class="roundbox">Категория 1</div>
+          <div class="roundbox">Категория 2</div>
+          <div class="roundbox">Категория 3</div>
+          <!-- профиль в хедере -->
+          <div class="roundbox1 flex-row">
+            <img class="foto-mini" src="https://picsum.photos/64">
+            <h5 class="margin-foto logo-name">Артемий</h5>
+          </div>
         </div>
       </header>
 
+      <main class="flex-row" style="margin-top: 30px;">
+        <!-- Карточка -->
+        <div class="col-4 offset-1 bright-bg" style="padding: 20px;">
+          <!-- Верстка строками -->
+          <div class="flex-col" style="">
+            <h3 class="shrift input-header">Фамилия:</h3>
+            <input class="input-text" type="text" placeholder="" name="" value="">
+
+            <h3 class="shrift input-header gap-input">Имя:</h3>
+            <input class="input-text" type="text" placeholder="" name="" value="">
+
+            <h3 class="shrift input-header gap-input">Отчество:</h3>
+            <input class="input-text" type="text" placeholder="" name="" value="">
+
+            <h3 class="shrift input-header gap-input">Дата рождения:</h3>
+            <div class="flex-row shrift input-header gap-input">
+            <input class="input-text1" type="date" maxlength="2" placeholder="17" name="" value="">
+            <select class="input-text ots">
+            <option value="">Январь</option>
+            <option value="">Февраль</option>
+            <option value="">Март</option>
+            <option value="">Апрель</option>
+            <option value="">Май</option>
+            <option value="">Июнь</option>
+            <option value="">Июль</option>
+            <option value="">Август</option>
+            <option value="">Сентябрь</option>
+            <option value="">Октябрь</option>
+            <option value="">Ноябрь</option>
+            <option value="">Декабрь</option>
+            </select>
+            <input class="input-text2" type="date" maxlength="4" placeholder="1997" name="" value="">
+            </div>
+            <h3 class="shrift input-header gap-input">Контакты:</h3>
+            <div class="flex-row shrift input-header gap-input">
+              <!-- ИКОНКА ТЕЛЕФОНА -->
+              <span class="material-icons phone1">call</span>
+              <input class="input-text3" type="phone" name="" placeholder="phone" value="">
+              <!-- ИКОНКА ПОЧТЫ -->
+              <span class="material-icons email">email</span>
+              <input class="input-text4" type="email" name="" placeholder="email" value="">
+            </div>
+            <h3 class="shrift input-header gap-input">Социальные сети:</h3>
+            <div class="flex-row shrift input-header gap-input">
+            <input class="input-text3" type="text" disabled name="" value="vk.com/artleb">
+            <!-- ИКОНКА ВК -->
+            <span class="up-btn material-icons ots1">done_all</span>
+            </div>
+            <div class="btn1">
+              <button>Сохранить</button>
+              <button>Отмена</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Блок фото -->
+        <div class="col-3 bright-bg" style="padding: 20px;">
+          <h3 class="shrift input-header">Фото профиля:</h3>
+          <div class="foto-box">
+            <img class="foto" src="https://picsum.photos/128">
+
+            <div class="knopki">
+              <button>Изменить</button>
+              <div class="knopki">
+              <button>Удалить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Блок меню -->
+        <div class="col-3 bright-bg" style="padding: 20px; margin-left: 20px;"
+        <div class="flex-col box">
+        <div class=" shrift1 input-header stil" style="">
+          <h3 class=" shrift1 input-header ramka hov" href="#">Личная информация</h3>
+          <h3 class=" shrift1 input-header ramka hov" href="#">Основное образование</h3>
+          <h3 class=" shrift1 input-header ramka hov" href="#">Дополнительное образование</h3>
+          <h3 class=" shrift1 input-header ramka hov" href="#">Ключевые навыки</h3>
+          <h3 class=" shrift1 input-header ramka hov" href="#">Профессиональные навыки</h3>
+          <h3 class=" shrift1 input-header ramka hov" href="#">Обо мне</h3>
+          </div>
+          </div>
+        </div>
+
+      </main>
+      <footer class="col-12 bright-bg" style="height: 50px; background-color: #C5BECC;"></footer>
 
   </body>
 </html>

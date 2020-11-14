@@ -1,9 +1,12 @@
-html {
+/* html {
   font-size: 20px;
-}
+  background-color: #F3F3F5;
+} */
 
 body {
   margin: 0;
+  font-size: 20px;
+  background-color: #C5BECC;
 }
 
 header {
@@ -11,9 +14,26 @@ header {
   display: flex;
   height: 70px;
 }
+aside {
+  margin-top: 30px;
+}
+
+main {
+  /* margin-top: 30px; */
+
+
+}
 
 .logo {
-  text-align: center;
+  margin-right: 40px;
+  margin-left: 180px;
+  margin-top: 23px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.logo-name {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -22,4 +42,268 @@ header {
 img {
     width: 100%;
     height: auto;
+}
+
+.logo2 {
+  margin-left: 20px;
+  height: 38px;
+  margin-top: 20px;
+}
+
+.padding {
+  border: 1px solid #9948D1;
+  background-color: #9948D1;
+  border-radius: 20px;
+}
+
+.roundbox {
+  padding: 8px;
+  border: 1px solid #9948D1;
+  background-color: #9948D1;
+  color: #9948D1;
+  border-radius: 20px;
+  margin-right: 6%;
+}
+
+.roundbox1 {
+  padding: 8px;
+  border: 1px solid #9948D1;
+  background-color: #9948D1;
+  border-radius: 20px;
+  margin-left: 330px;
+}
+
+.navbar {
+display: flex;
+height: 30px;
+justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.kat {
+  display: flex;
+  justify-content: left;
+}
+
+.for {
+    flex: 1 0 auto;
+}
+
+.padding2 {
+  opacity: 0;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.padding3 {
+  border: 1px solid #DCD8E1;
+  background-color: #DCD8E1;
+  height: 500px;
+}
+
+.nav1 {
+  margin-top: 30px;
+  margin-left: 1100px;
+  border: 1px solid #DCD8E1;
+  background-color: #DCD8E1;
+  height: 500px;
+}
+
+.padding4 {
+  margin-left: 10px;
+  border: 1px solid #DCD8E1;
+  background-color: #DCD8E1;
+  height: 500px;
+}
+
+.input-header{
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.gap-input {
+  margin-top: 20px;
+}
+
+.shrift {
+  color: #7800C1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.shrift1 {
+  color: #BB8EE1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.per {
+  word-wrap: break-word;
+}
+
+.input-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.input-text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 8px;
+  width: 35px;
+}
+
+.input-text2 {
+  margin-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 8px;
+  width: 70px;
+}
+
+.input-text3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 8px;
+  width: 140px;
+}
+
+.input-text4 {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px #ccc solid;
+  border-radius: 6px;
+  padding: 8px;
+  width: 140px;
+}
+
+.bright-bg {
+  background-color: #F3F3F5;
+  /* background-color:  */
+}
+
+
+
+.foto-box {
+  border: 1px #CCC solid;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.foto {
+  width: 80px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.margin-foto {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.foto-mini {
+  margin-right: 3px;
+  width: 20px;
+  height: auto;
+  border-radius: 40px;
+}
+
+button {
+  border: 1px #5900B2 solid;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 8px;
+  color: #5900B2;
+  padding: 8px;
+  width: 130px;
+}
+
+.ots {
+  margin-left: 15px;
+}
+
+.ots1 {
+  margin-left: 15px;
+  border: 1px #5900B2 solid;
+  background-color: #F3F3F5;
+  border-radius: 8px;
+  color: #5900B2;
+  padding: 7px;
+}
+
+.box {
+
+}
+
+.btn1 {
+  margin-top: 100px;
+
+}
+
+.phone1 {
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
+.email {
+  margin-left: 15px;
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
+.stil {
+
+}
+
+.ramka {
+  border-left: 2px solid #F3F3F5;
+  border-radius: 0;
+  color: ;
+  display: block;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.hov:hover {
+  border-left: 2px solid #5900B2;
+  color: #5900B2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  transition-property: color, border-left, background-color;
+  transition-duration: 1s;
+}
+
+.knopki {
+  display: block;
+  background-position: center;
 }
