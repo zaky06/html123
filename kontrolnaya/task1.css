@@ -243,6 +243,14 @@ button {
   width: 130px;
 }
 
+button:hover {
+  border: 1px #5900B2 solid;
+  background-color: #5900B2;
+  color: #fff;
+  transition-property: color, background-color;
+  transition-duration: 1s;
+}
+
 .ots {
   margin-left: 15px;
 }
@@ -299,8 +307,8 @@ button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 20px;
-  transition-property: color, border-left, font-size, background-color;
-  transition-duration: 1s;
+  transition-property: color, border-left, background-color;
+  transition-duration: 2s;
 }
 
 .knopki {
