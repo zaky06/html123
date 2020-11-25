@@ -197,9 +197,13 @@ img {
 
 .border-right {
   border-right: 2px solid #8A8B9D;
-  margin-right: 600px;
+  margin-right: 35px;
 }
 
+.border-right1 {
+  border-right: 2px solid #8A8B9D;
+  margin-right: -50px;
+}
 
 .shrift2:hover {
   transition-duration: 1s;
@@ -269,4 +273,58 @@ img {
   padding-left: 20px;
   padding-top: 20px;
   border-bottom-left-radius: 2px;
+}
+
+.shrift5 {
+  color: #5900B2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.niz {
+  margin-top: 75px;
+}
+
+.error_outline1 {
+  margin-top: 74px;
+  color: #5900B2;
+  margin-left: 10px;
+}
+
+.border-bottom1 {
+  margin-top: 4px;
+  border-bottom: 4px solid #1300EC;
+  width: 140px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.border-bottom2 {
+  margin-top: 4px;
+  border-bottom: 4px solid #A2AAFA;
+  width: 80px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.border-bottom3 {
+  margin-top: 4px;
+  border-bottom: 4px solid #0FA723;
+  width: 140px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.border-bottom4 {
+  margin-top: 4px;
+  border-bottom: 4px solid #B2F9BC;
+  width: 80px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.border-left {
+  border-left: 2px solid #8A8B9D;
+
 }

@@ -1,51 +1,160 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>ОЛИМП</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="task7-a.css">
-    <link rel="stylesheet" href="flex-grid.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
-  <body>
-    <header class="flex-row">
-      <div class="logo">ОЛИМП</div>
-      <div class="kat for logo2">
-        <div class="roundbox">Категория 1</div>
-        <div class="roundbox">Категория 2</div>
-        <div class="roundbox">Категория 3</div>
-        <!-- профиль в хедере -->
-        <div class="roundbox1 flex-row">
-          <img class="foto-mini" src="https://picsum.photos/64">
-          <h5 class="margin-foto logo-name">Артемий</h5>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>ОЛИМП</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task7-a.css">
+  <link rel="stylesheet" href="flex-grid.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<!-- За ранее хочу извиниться, код выдался ужасным, вышла ошибка с колонками и я попросту не успею все заменить, так что пришлось выкручиваться разными способами, по этому про адаптив лучше не спрашивать( и по этой же причине нету отступа у блока с интересами -->
+<body>
+  <header class="flex-row">
+    <div class="logo">ОЛИМП</div>
+    <div class="kat for logo2">
+      <div class="roundbox">Категория 1</div>
+      <div class="roundbox">Категория 2</div>
+      <div class="roundbox">Категория 3</div>
+      <!-- профиль в хедере -->
+      <div class="roundbox1 flex-row">
+        <img class="foto-mini" src="https://picsum.photos/64">
+        <h5 class="margin-foto logo-name">Артемий</h5>
       </div>
-    </header>
-      <main class="" style="margin-top: 30px;">
-        <div class="col-7 offset-1 bright-bg" style="padding: 20px; border-radius: 2px;">
-          <div class="flex-row">
-            <h2 class="shrift">Профессиональные навыки:</h2>
-            <span class="material-icons error">error_outline</span>
-            <span class="material-icons format_align_left">format_align_left</span>
-            <span class="material-icons grid_on">grid_on</span>
-            <span class="material-icons arrow_circle_up">arrow_circle_up</span>
+    </div>
+  </header>
+  <main class="" style="margin-top: 30px;">
+
+
+
+    <div class="flex-row">
+
+
+    <div class="col-7 offset-1 bright-bg" style="padding: 20px; border-radius: 2px;">
+      <div class="flex-row">
+        <h2 class="shrift">Профессиональные навыки:</h2>
+        <span class="material-icons error">error_outline</span>
+        <span class="material-icons format_align_left">format_align_left</span>
+        <span class="material-icons grid_on">grid_on</span>
+        <span class="material-icons arrow_circle_up">arrow_circle_up</span>
+      </div>
+      <div class="flex-row">
+        <h3 class="roundbox3 left_blue">Web-Программирование</h3>
+        <h3 class="roundbox3 left_blue1"> C# </h3>
+        <h3 class="roundbox3 left_blue2">Blender</h3>
+      </div>
+      <div class="flex-row border-bottom ramka otstup">
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Программирование</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Дизайн</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Не понял</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Робототехника</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Музыка</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Искусство</a>
+        <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">3-D</a>
+      </div>
+    </div>
+
+    </div>
+    <div class="flex-row">
+      <div class="col-2 offset-1 bright-bg">
+
+        <div class="border-right">
+          <div style="margin-left: 15px;" class="">
+
+            <div class="flex-row db11">
+              <span class="material-icons work">work</span>
+              <h3 class="shrift3">Инструменты</h3>
             </div>
             <div class="flex-row">
-              <h3 class="roundbox3 left_blue">Web-Программирование</h3>
-              <h3 class="roundbox3 left_blue1">  C#  </h3>
-              <h3 class="roundbox3 left_blue2">Blender</h3>
+              <span class="material-icons forward">forward</span>
+              <h3 class="shrift2 raz">IDE</h3>
             </div>
-            <div class="flex-row border-bottom ramka otstup">
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Программирование</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Дизайн</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Не понял</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Робототехника</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Музыка</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">Искусство</a>
-              <a style="text-decoration: none;" class="shrift2 otstup1 ramka1" href="#">3-D</a>
+            <div class="flex-row">
+              <span class="material-icons forward">forward</span>
+              <h3 class="shrift2 raz">Frameworks</h3>
             </div>
-            <div class="border-right">
+            <div class="flex-row db1">
+              <span class="material-icons star">star</span>
+              <h3 class="shrift4">Концепции</h3>
+            </div>
+            <div class="flex-row db1">
+              <span class="material-icons loyalty">loyalty</span>
+              <h3 class="shrift4">Стили</h3>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5 bright-bg">
+        <div class="flex-row">
+          <h3 class="shrift5 niz">Visual Studio</h3>
+          <h3 style="margin-left: 50px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+          <h3 style="margin-left: 70px;" class="shrift5 niz">CLion</h3>
+          <h3 style="margin-left: 100px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+
+        </div>
+        <div class="flex-row">
+          <div class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+          <div style="margin-left: 70px;" class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+        </div>
+
+        <div class="flex-row">
+          <h3 class="shrift5 niz">Xcode</h3>
+          <h3 style="margin-left: 105px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+          <h3 style="margin-left: 70px;" class="shrift5 niz">Brackets</h3>
+          <h3 style="margin-left: 80px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+
+        </div>
+        <div class="flex-row">
+          <div class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+          <div style="margin-left: 70px;" class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+        </div>
+
+        <div class="flex-row">
+          <h3 class="shrift5 niz">Xcode</h3>
+          <h3 style="margin-left: 105px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+          <h3 style="margin-left: 70px;" class="shrift5 niz">???????</h3>
+          <h3 style="margin-left: 80px;" class="shrift5 niz">5 / 7</h3>
+          <span class="material-icons error_outline1 ">error_outline</span>
+
+        </div>
+        <div class="flex-row">
+          <div class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+          <div style="margin-left: 70px;" class="border-bottom1"></div>
+          <div class="border-bottom2"></div>
+        </div>
+        <h2 style="color: #F3F3F5;">fff</h2>
+        </div>
+        <div style="margin-top: 30px;" class=""></div>
+
+      </div>
+      <div class="col-7 offset-1 bright-bg" style="padding: 20px; border-radius: 2px; margin-top: 20px;">
+        <div class="flex-row">
+          <h2 class="shrift">Метанавыки:</h2>
+          <span class="material-icons error">error_outline</span>
+          <span style="margin-left: 460px;"class="material-icons format_align_left">format_align_left</span>
+          <span class="material-icons grid_on">grid_on</span>
+          <span class="material-icons arrow_circle_up">arrow_circle_up</span>
+        </div>
+      </div>
+      <div class="flex-row">
+        <div class="col-2 offset-1 bright-bg">
+
+          <div class="border-right">
+            <div style="margin-left: 15px;" class="">
+
               <div class="flex-row db11">
                 <span class="material-icons work">work</span>
                 <h3 class="shrift3">Инструменты</h3>
@@ -65,12 +174,90 @@
               <div class="flex-row db1">
                 <span class="material-icons loyalty">loyalty</span>
                 <h3 class="shrift4">Стили</h3>
-              </div>
-              </div>
 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-5 bright-bg">
+          <div class="flex-row">
+            <h3 class="shrift5 niz">???????????</h3>
+            <h3 style="margin-left: 50px;" class="shrift5 niz">5 / 7</h3>
+            <span class="material-icons error_outline1 ">error_outline</span>
+            <h3 style="margin-left: 63px;" class="shrift5 niz">GitLhub</h3>
+            <h3 style="margin-left: 100px;" class="shrift5 niz">5 / 7</h3>
+            <span class="material-icons error_outline1 ">error_outline</span>
+
+          </div>
+          <div class="flex-row">
+            <div class="border-bottom3"></div>
+            <div class="border-bottom4"></div>
+            <div style="margin-left: 70px;" class="border-bottom3"></div>
+            <div class="border-bottom4"></div>
+          </div>
+
+          <div class="flex-row">
+            <h3 class="shrift5 niz">Jira</h3>
+            <h3 style="margin-left: 130px;" class="shrift5 niz">5 / 7</h3>
+            <span class="material-icons error_outline1 ">error_outline</span>
+            <h3 style="margin-left: 65px;" class="shrift5 niz">Wrike</h3>
+            <h3 style="margin-left: 115px;" class="shrift5 niz">5 / 7</h3>
+            <span class="material-icons error_outline1 ">error_outline</span>
+
+          </div>
+          <div class="flex-row">
+            <div class="border-bottom3"></div>
+            <div class="border-bottom4"></div>
+            <div style="margin-left: 70px;" class="border-bottom3"></div>
+            <div class="border-bottom4"></div>
+          </div>
+
+
+          </div>
+          <div style="margin-top: 30px;" class=""></div>
+        </div>
+        <div style="margin-top: -1090px; padding: 20px; border-color: 3px solid black;border-radius: 2px;" class="col-3 offset-8 bright-bg">
+          <div class="flex-row">
+          <h2 class="shrift">Интересы</h2>
+          <span style="margin-top:"class="material-icons error">error_outline</span>
+          <span style="margin-left: 80px;"class="material-icons format_align_left">format_align_left</span>
+          <span class="material-icons arrow_circle_up">arrow_circle_up</span>
+          </div>
+          <h2 class="shrift3">1. Приборостроение</h2>
+          <div class="border-left">
+            <h3 style="margin-left: 10px;"class="shrift2">Интересуюсь тем-то и тем-то,</h3>
+            <h3 style="margin-left: 10px;"class="shrift2">потому что приборостроение у</h3>
+            <h3 style="margin-left: 10px;"class="shrift2">меня в интересах</h3>
+            <div class="flex-row">
+              <h3 style="margin-left: 10px;"class="shrift3">Периодичность:</h3>
+              <h3 style="margin-left: 20px;" class="shrift3">раз в год</h3>
+            </div>
+            <div class="flex-row">
+              <h3 style="margin-left: 10px;"class="shrift3">Дата создания:</h3>
+              <h3 style="margin-left: 20px;" class="shrift3">12.03.20</h3>
+            </div>
+          </div>
+          <h2 class="shrift3">2. Робототехника</h2>
+          <div class="border-left">
+            <h3 style="margin-left: 10px;"class="shrift2">Роботы и все, что с ними связано</h3>
+            <div class="flex-row">
+              <h3 style="margin-left: 10px;"class="shrift3">Периодичность:</h3>
+              <h3 style="margin-left: 20px;" class="shrift3">раз в год</h3>
+            </div>
+            <div class="flex-row">
+              <h3 style="margin-left: 10px;"class="shrift3">Дата создания:</h3>
+              <h3 style="margin-left: 20px;" class="shrift3">12.03.20</h3>
+            </div>
+          </div>
+          <h2 class="shrift3">4. Программирование</h2>
 
 
         </div>
-      </main>
-  </body>
+
+
+  </main>
+  <footer class="col-12 bright-bg" style="height: 50px; background-color: #C5BECC;"></footer>
+</body>
+
 </html>
